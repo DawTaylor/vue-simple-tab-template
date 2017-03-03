@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<head>
+    <title>VUE JS</title>
+    <base href="/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.2.3/css/bulma.min.css">
+    <style>
+        body {
+            padding-top : 40px
+        }
+    </style>
+</head>
+
+<body>
+    <div id="root" class="container">
+
+        <tabs>
+            <tab name="Empresa" :selected="true">Empresa Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error suscipit voluptate accusantium quos nihil. Tempora ullam, esse perferendis, culpa recusandae nobis enim expedita nisi quisquam delectus. Nostrum earum, voluptatem aliquam.</tab>
+            <tab name="Produtos">Produtos Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut, qui soluta tempore quibusdam illum enim accusantium sunt a beatae aperiam facilis harum. Aperiam accusamus aspernatur, numquam nostrum debitis? Consequuntur, distinctio.</tab>
+            <tab name="Lojas">Lojas Lorem ipsum dolor sit amet, consectetur adipisicing elit. Expedita in accusantium saepe alias laborum inventore quos fuga nisi, dolorum nostrum, consectetur obcaecati non aliquam ipsum, nihil vero, beatae soluta delectus.</tab>
+            <tab name="Contato">Contato Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cum aliquid natus, amet consectetur repudiandae non excepturi consequuntur cupiditate obcaecati debitis. Odit ducimus cumque harum fugit. Dolorum voluptas aperiam vel obcaecati.</tab>
+        </tabs>
+
+    </div>
+    <!-- Importa o VUE via CDN -->
+    <script src="https://unpkg.com/vue"></script>
+    <!-- Importa o arquivo com o código da aplicação -->
+    <script type="text/javascript" src="index.js"></script>
+</body>
