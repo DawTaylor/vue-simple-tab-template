@@ -12,3 +12,5 @@ Se não tiver o ```http-server``` instalado, instale usando o comando abaixo.
 
 ```sudo npm install -g htt-server```
 
+Pra aprender a parada como se deve, acompanhe a série sobre Vue2 no [Laracast](https://laracasts.com/series/learn-vue-2-step-by-step).
+
